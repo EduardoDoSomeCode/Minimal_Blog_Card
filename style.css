@@ -22,20 +22,20 @@ body {
 
 main {
     box-shadow: 0px 30px 100px 0px #E5EAF0;
-    border-radius: 6px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     max-width: min-content;
-    padding: 12px;
+    padding: 14px;
 }
 
 .step {
     background-color: #E6D6FC;
     color: #883AE1;
     border-radius: 12px;
-    max-width: 80px;
+    max-width: 65px;
     text-align: center;
-    margin: 8px 0 8px 0;
+    margin: 15px 0 8px 0;
     font-size:  0.625rem;
     padding: 5px;
     font-weight: 700;
@@ -44,7 +44,9 @@ main {
 .description {
     text-wrap: balance;
     max-width: calc(100vw / 1.4);
-    padding:0px 0px 10px  ;
+    padding:0px 0px 14px 0px  ;
+    /* background-color: red; */
+    font-weight: 300;
     font-size: 0.875rem;
 }
 
@@ -56,7 +58,7 @@ main {
 }
 .author{
     border-top: 1px solid #E5EAF0;
-    padding: 8px 0px 4px;
+    padding: 14px 0px 6px;
     font-weight: 200;
     color: #6C727F;
     font-size: 0.75em;
